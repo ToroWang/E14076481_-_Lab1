@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2021-10-30T13:57:43.366Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" version="14.9.5" etag="w-SyGDmNpyV6q5vzKSSw" type="github"><diagram id="aV-NKvh-F8ot64hlHp7w">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-30T14:13:47.589Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="NzSbHbKTkW5zUlcgrEsK" version="14.9.5" type="github">
+  <diagram id="aV-NKvh-F8ot64hlHp7w" name="第1頁">
+    <mxGraphModel dx="756" dy="395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="haVciTmjnzB4D0ghUklq-5" value="State" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="260" width="190" height="238" as="geometry" />
+        </mxCell>
+        <mxCell id="haVciTmjnzB4D0ghUklq-6" value="+ pieces&#xa;+ enemy_pieces" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="haVciTmjnzB4D0ghUklq-5">
+          <mxGeometry y="26" width="190" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="haVciTmjnzB4D0ghUklq-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="haVciTmjnzB4D0ghUklq-5">
+          <mxGeometry y="60" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="haVciTmjnzB4D0ghUklq-8" value="+ piece_count(pieces: list): int&#xa;+ is_lose(): bool&#xa;+ is_draw(): bool&#xa;+ is_done(): bool&#xa;+ next(action: list): state&#xa;+ legal_actions(): list&#xa;+ is_first_player(): bool&#xa;+ &#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="haVciTmjnzB4D0ghUklq-5">
+          <mxGeometry y="68" width="190" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="haVciTmjnzB4D0ghUklq-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="haVciTmjnzB4D0ghUklq-5">
+          <mxGeometry y="230" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="haVciTmjnzB4D0ghUklq-10" value="State" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="260" width="190" height="238" as="geometry" />
+        </mxCell>
+        <mxCell id="haVciTmjnzB4D0ghUklq-11" value="+ pieces&#xa;+ enemy_pieces" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="haVciTmjnzB4D0ghUklq-10">
+          <mxGeometry y="26" width="190" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="haVciTmjnzB4D0ghUklq-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="haVciTmjnzB4D0ghUklq-10">
+          <mxGeometry y="60" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="haVciTmjnzB4D0ghUklq-13" value="+ piece_count(pieces: list): int&#xa;+ is_lose(): bool&#xa;+ is_draw(): bool&#xa;+ is_done(): bool&#xa;+ next(action: list): state&#xa;+ legal_actions(): list&#xa;+ is_first_player(): bool&#xa;+ &#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="haVciTmjnzB4D0ghUklq-10">
+          <mxGeometry y="68" width="190" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="haVciTmjnzB4D0ghUklq-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="haVciTmjnzB4D0ghUklq-10">
+          <mxGeometry y="230" width="190" height="8" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
